@@ -18,6 +18,10 @@ public class DrivableTrader<T extends Drivable> extends Trader<T> {
         super(inventory, wishlist, money);
     }
 
+    public DrivableTrader(int money) {
+        super(money);
+    }
+
     @Override
     public int getSellingPrice(T security) {
         if (security instanceof Tradable) {

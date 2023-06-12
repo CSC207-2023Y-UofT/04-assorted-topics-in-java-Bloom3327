@@ -50,7 +50,7 @@ public class Trader<T> {
      *       object of type T and adds it to this Trader's wishlist.
      */
     public void addToWishlist(T security) {
-        wishlist.add(item);
+        wishlist.add(security);
     }
 
 
